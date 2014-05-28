@@ -1,0 +1,1 @@
+wget --spider --input-file=url --output-file=rez -nv
