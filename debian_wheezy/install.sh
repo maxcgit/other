@@ -20,4 +20,4 @@ apt-get install nginx -y
 apt-get install mysql-server -y
 
 #git
-apt-get install git
+apt-get install git -y
