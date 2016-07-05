@@ -8,8 +8,8 @@ sudo mv composer.phar /usr/local/bin/composer
 #proj
 sudo mkdir /home/www
 cd /home/www
-git clone https://maxcgit@bitbucket.org/maxprivate/btcvic.git btcvic.com
-cd btcvic.com/
+git clone https://maxcgit@bitbucket.org/maxprivate/<src>.git <src>.com
+cd <src>.com/
 chmod 777 var/cache/ var/logs/ web/ app/AppCache.php
 cp app/config/parameters.yml.dist app/config/parameters.yml
 vim app/config/parameters.yml
